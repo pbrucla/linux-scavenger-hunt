@@ -8,8 +8,8 @@ the clues and learn how to use basic Linux commands in the process.
 If you are using a new Linux install or Live CD, you may need to install
 Git first (`sudo apt-get install git` on Ubuntu). Open a terminal and type:
 
-    git clone https://github.com/pushingice/scavenger-hunt.git
-    cd scavenger-hunt
+    git clone https://github.com/ucla-e1-malware/linux-scavenger-hunt
+    cd linux-scavenger-hunt
 
 First, choose a secret number with at least 4 digits to share with your team,
 or keep to yourself if you are working alone. Don't forget it! The secret
@@ -24,20 +24,10 @@ Any time we enclose something in square brackets, you need to replace it
 with an actual value (called an argument). For example, to get started I
 might type:
 
-    python generate_clues.py 42
+    python generate_clues.py 1919
 
 This will create a subdirectory called `clues`. Be sure to keep this file
 (called the README) open in a separate viewer.
-
-### Dictionary Location ###
-
-This code is tested on Ubuntu 22.04. If you get an error about being unable
-to find your dictionary, try the following commands
-
-    cd /
-    find . -name words
-
-Change the value of the 'conf' file to the location of your dictionary.
 
 ## Reference ##
 
@@ -78,7 +68,7 @@ This puts us in the clues directory. To go up a directory, we can do this:
 
 If you ever get lost, just do
 
-    cd ~/scavenger-hunt
+    cd ~/linux-scavenger-hunt
 
 to return home. If you `cd` to the `clues` directory and do an `ls`, you
 will notice that there are a lot of clue directories. Most of them contain
