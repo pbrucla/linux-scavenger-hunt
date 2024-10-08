@@ -41,4 +41,3 @@ your hint. For example, if your command was `ls -la /usr/bin | sort -a -b -c`, y
 be
 
     python next_clue.py 11 "-a -b -c"
-    
