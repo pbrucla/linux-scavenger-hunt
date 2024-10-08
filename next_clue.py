@@ -55,7 +55,7 @@ if __name__ == "__main__":
     hint = sys.argv[2]
     try:
         with open(".secret_number", "r") as f:
-            secret_number = int(f.readlines())
+            secret_number = int("".join(f.readlines()))
     except:
         sys.exit("Generate the clues first!")
 
