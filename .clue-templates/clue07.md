@@ -1,4 +1,4 @@
-### Clue 7: Make Me a Sandwhich ###
+### Clue 7: Make Me a Sandwich ###
 
 https://xkcd.com/149/
 
@@ -12,8 +12,7 @@ command for that: `sudo`. It stands for "super-user do".
 #### Installing Software ####
 
 Sometimes you need a new program. To install software on some versions of Linux
-(Ubuntu and Debian), you use the command `apt-get`. On other versions (Fedora,
-CentOS) you use the command `yum`. Let's install a text editing program
+(Ubuntu and Debian), including the one we use for this class, you use the command `apt-get`. On other versions (Fedora, CentOS) you use the command `yum`. Let's install a text editing program
 called `vim`.
 
     apt-get install vim
@@ -33,10 +32,4 @@ strange. For now, just type `:q!` to quit.
 
 #### Finding Clue 8 ####
 
-The hint is the name of the first folder listed in `/sys/kernel/debug`.
-
-#### Help. I can't sudo ####
-
-Depending on the system you are using, you may not have permission to use `sudo`.
-In this case you can use the hint `denied`.
-
+The hint is the name of the first folder in `/sys/kernel/debug`.

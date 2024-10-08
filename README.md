@@ -3,13 +3,20 @@
 This is a scavenger hunt to learn Linux commands. Our goal is to find all
 the clues and learn how to use basic Linux commands in the process.
 
+############## IMPORTANT: RECORDING YOUR COMMANDS ##############
+
+
+In order to get credit for doing the assignment, let's record our commands!
+
+Before you run *anything*, run `script log#` where # is a number. Start at 0,
+but keep incrementing it for every new time you run a new `script` session.
+
+When you are done, run `exit` to save the log file.
+
+
+#################################################################
+
 ## Setup ##
-
-If you are using a new Linux install or Live CD, you may need to install
-Git first (`sudo apt-get install git` on Ubuntu). Open a terminal and type:
-
-    git clone https://github.com/ucla-e1-malware/linux-scavenger-hunt
-    cd linux-scavenger-hunt
 
 First, choose a secret number with at least 4 digits to share with your team,
 or keep to yourself if you are working alone. Don't forget it! The secret
@@ -18,13 +25,13 @@ Then type:
 
     python generate_clues.py [secret number]
 
-NOTE: On some older systems 'python' may need to be typed as 'python3'.
-
 Any time we enclose something in square brackets, you need to replace it
 with an actual value (called an argument). For example, to get started I
 might type:
 
     python generate_clues.py 1919
+
+The significance of this number in relation to UCLA is left as an exercise to the reader.
 
 This will create a subdirectory called `clues`. Be sure to keep this file
 (called the README) open in a separate viewer.
@@ -32,7 +39,7 @@ This will create a subdirectory called `clues`. Be sure to keep this file
 ## Reference ##
 
 If you want to learn more about Linux when you are finished, or need a reference
-during the hunt, go here: http://www.tldp.org/LDP/intro-linux/html/index.html.
+during the hunt, go here: https://docs.google.com/document/d/1zWvBsGbqu_Rftg7P3C-tsaHbKAle7bq2s_q0q8bo9yA/edit.
 
 ### Clue 1: The Hunt Begins ###
 
@@ -85,6 +92,7 @@ Finally we need to be able to look at our clues. First read the manpage for
 
 This should list the clue in your terminal. From now on, everything we need
 will be contained in these clue files. It's a good idea to keep track of
-all the clue folders (like `123456`) on a piece of paper. You can also do
+all the clue folders (like `12345`) somewhere, such as on a piece of paper
+or in a digital note somewhere. You can also do
 things like copy all the clue files to your home folder, or cut and paste
 the clue text into another file.

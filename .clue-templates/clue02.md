@@ -5,9 +5,9 @@
 What if we get lost and need to know where we are? Just type `pwd` (print
 working directory). This should print something like this:
 
-    /home/user/scavenger-hunt/clues/123456
+    /home/e1-attack/linux-scavenger-hunt/clues/12345
 
-We are five folders deep, in a folder named `123456`.
+We are five folders deep, in a folder named `12345`.
 
 #### `cd` ####
 
@@ -34,13 +34,13 @@ To find the next clue, go to the `/usr` directory and count the number of
 subdirectories. This is a hint to your next clue location. Go to the
 `scavenger-hunt` directory, and type
 
-    python next_clue.py [secret number] [next clue number] [hint]
+    python next_clue.py [next clue number] [hint]
 
 So, if there were 5 directories, we would type
 
-    python next_clue.py 42 3 5
+    python next_clue.py 3 5
 
-since our secret number is 42, we want to find clue 3, and our hint is 5.
+since we want to find clue 3 and our hint is 5.
 The location of our next clue should be printed. If you get the hint wrong,
 an incorrect clue will be printed. This is an example of what is known as GIGO
 (garbage-in, garbage-out). Helpful tip: you can open more than one terminal

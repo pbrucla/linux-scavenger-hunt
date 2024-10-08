@@ -22,7 +22,7 @@ computer. Binary files are sometimes referred to as "machine-readable".
 #### `/bin` ####
 
 One place you can always find binaries on a Linux system is in `/bin`. These
-binaries are programs: if you `ls` in `/bin` you may recoginze some of them
+binaries are programs: if you `ls` in `/bin` you may recognize some of them
 (including `ls` itself). This is also a convenient way to get a list of
 commands.
 
@@ -32,7 +32,7 @@ systems you can see the hex itself with `hexdump`.
 
 #### `/etc` ####
 
-This directory is named after the latin *et cetera* but is usally pronounced
+This directory is named after the latin *et cetera* but is usually pronounced
 "et see". There are many text (and some binary) files here that are used to
 configure the system. Humans and computers can both read these files to find
 out how to configure the system.
@@ -46,4 +46,4 @@ Your hint for clue 4 is the file `/etc/hostname`. This file contains a single
 word, which is the name of your computer. This name is your hint. Remember we
 can find the next hint by typing
 
-    python next_clue.py [secret number] [next clue number] [hint]
+    python next_clue.py [next clue number] [hint]
