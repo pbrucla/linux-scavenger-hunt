@@ -51,8 +51,8 @@ if __name__ == "__main__":
 
     if len(sys.argv) != 3:
         sys.exit("Need a clue number and hint")
-    clue_number = int(sys.argv[2])
-    hint = sys.argv[3]
+    clue_number = int(sys.argv[1])
+    hint = sys.argv[2]
     try:
         with open(".secret_number", "r") as f:
             secret_number = int(f.readlines())
