@@ -18,9 +18,10 @@ When you are done, run `exit` to save the log file.
 
 ## Setup ##
 
-First, choose a secret number with at least 4 digits to share with your team,
-or keep to yourself if you are working alone. Don't forget it! The secret
-number makes your clues unique, so other teams can't look over your shoulder.
+First, choose a secret number with at least 4 digits. Don't forget it and
+don't choose the same one as anyone else! The secret number makes your clues
+unique, so other teams can't look over your shoulder.
+
 Then type:
 
     python generate_clues.py [secret number]
