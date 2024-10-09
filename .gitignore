@@ -36,3 +36,4 @@ nosetests.xml
 
 clues
 .secret_number
+__pycache__
