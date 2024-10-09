@@ -1,4 +1,4 @@
-# scavenger-hunt #
+# linux-scavenger-hunt #
 
 This is a scavenger hunt to learn Linux commands. Our goal is to find all
 the clues and learn how to use basic Linux commands in the process.

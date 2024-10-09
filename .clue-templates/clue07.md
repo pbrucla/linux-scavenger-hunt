@@ -26,7 +26,7 @@ Now we have the ability to edit files. Try
 
     vim README.md
     
-from the `scavenger-hunt` directory. Some of the commands for `vim` are a little
+from the `linux-scavenger-hunt` directory. Some of the commands for `vim` are a little
 strange. For now, just type `:q!` to quit.
 
 

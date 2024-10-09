@@ -32,7 +32,7 @@ explore the entire file system from here, using just `ls` and `cd`.
 
 To find the next clue, go to the `/usr` directory and count the number of
 subdirectories. This is a hint to your next clue location. Go to the
-`scavenger-hunt` directory, and type
+`linux-scavenger-hunt` directory, and type
 
     python next_clue.py [next clue number] [hint]
 

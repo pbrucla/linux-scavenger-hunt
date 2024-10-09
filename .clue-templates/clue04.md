@@ -4,7 +4,7 @@
 
 We've been exploring the directories that already exist on the computer. But
 what if we want to make our own folders and files? The first thing we need to
-do is create a new directory. First go home: `cd ~/scavenger-hunt`. Then do
+do is create a new directory. First go home: `cd ~/linux-scavenger-hunt`. Then do
 
     mkdir saved-clues
 
