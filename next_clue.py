@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from base64 import b64decode
 
 # Please do the lab legitimately - if you need help, just ask us!
