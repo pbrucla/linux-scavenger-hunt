@@ -66,6 +66,8 @@ if __name__ == "__main__":
     template_data = []
 
     for t in template_names:
+        if t == "NO PEEKING":
+            continue
         data = open(".clue-templates/" + t, "r").read()
         template_data.append(data)
 
