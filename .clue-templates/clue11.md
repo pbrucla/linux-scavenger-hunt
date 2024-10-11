@@ -28,6 +28,6 @@ Your final task is to edit the `README.md` file and add the phrase `cats are bet
 
 Navigate to where you want to add the phrase, type it in, save the file with `Ctrl + O`, and then exit with `Ctrl + X`.
 
-Once you are done, simply run `next_clue.py` with the hint `done` like so:
+Once you are done, simply run `next_clue.py` with the answer `done` like so:
 
     python next_clue.py 12 done

@@ -3,6 +3,9 @@
 #### Finding the Final Clue ####
 
 Using everything you've learned so far, and the fact that the real clues are
-different from the fake clues (different file size!), find the final clue using only linux commands!
+different from the fake clues (what is the first line of every real clue file?),
+find the final clue using only linux commands!
+You may need to do some googling or man page reading, but you can use a command you
+already know!
 
-Hint: try using the `find` or `grep` commands.
+Hint: try using the `grep` command!

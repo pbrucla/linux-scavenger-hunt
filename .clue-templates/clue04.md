@@ -1,5 +1,11 @@
 ### Clue 4: Moving Day ###
 
+Welcome! I hope you are viewing this file in `less`. As a reminder:
+
+- Use arrow keys to move up and down
+- Use space bar to jump down a full page
+- Hit `q` to exit once you are done reading
+
 #### Making Space ####
 
 We've been exploring the directories that already exist on the computer. But

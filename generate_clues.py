@@ -33,29 +33,33 @@ def gen_clue_list(first, last, space, secret):
 
 if __name__ == "__main__":
 
-    if len(sys.argv) != 2:
-        sys.exit("Need a secret number")
-    secret_number = int(sys.argv[1])
+    import os
+    import shutil
+    try:
+        print("Found existing scavenger hunt - updating clues...")
+        shutil.rmtree("clues")
+        with open(".secret_number", "r") as f:
+            secret_number = int(f.read())
+
+    except:
+
+        if len(sys.argv) != 2:
+            sys.exit("Need a secret number - run like python generate_clues.py NUMBER")
+        secret_number = int(sys.argv[1])
 
     try:
         val = open("conf", "r").read().strip()
         words = open(val, "r").read().strip()
     except FileNotFoundError:
-        sys.exit("Unable to locate dictionary file. Please check README.md")
+        sys.exit("Unable to locate dictionary file. Please contact the instructors for support.")
 
-    try:
-        os.stat("clues")
-        sys.exit("Clues folder already exists.")
-    except FileNotFoundError:
-        os.mkdir("clues")
+    # try:
+    #     os.stat("clues")
+    #     sys.exit("Clues folder already exists.")
+    # except FileNotFoundError:
+    #     os.mkdir("clues")
 
     clue_indexes = gen_clue_list(START_CLUE, LAST_CLUE, CLUE_SPACE, secret_number)
-
-    try:
-        val = open("conf", "r").read().strip()
-        words = open(val, "r").read().strip()
-    except FileNotFoundError:
-        sys.exit("Unable to locate dictionary file. Please check README.md")
 
     template_names = os.listdir(".clue-templates")
     template_names.sort()

@@ -13,23 +13,19 @@ command for that: `sudo`. It stands for "super-user do".
 
 Sometimes you need a new program. To install software on some versions of Linux
 (Ubuntu and Debian), including the one we use for this class, you use the command
-`apt-get`. On other versions (Fedora, CentOS) you use the command `yum`. Let's
-install a text editing program called `vim`.
+`apt`. Let's install a rainbow text generating program called `lolcat`.
 
-    apt-get install vim
+    apt install lolcat
     
 You should get an error message asking if you are root. This means you don't
 have the ability to install software. Instead, try
 
-    sudo apt-get install vim
+    sudo apt install lolcat
     
-Now we have the ability to edit files. Try
+Now we have the ability to make rainbow text! Type `lolcat`, then start typing any text and
+hit enter, and voila! Rainbox text!
 
-    vim README.md
-    
-from the `linux-scavenger-hunt` directory. Some of the commands for `vim` are a little
-strange. For now, just type `:q!` to quit.
-
+To exit, hold the control key and then hit the `c` key.
 
 #### Finding Clue 8 ####
 

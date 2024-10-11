@@ -8,11 +8,11 @@ the clues and learn how to use basic Linux commands in the process.
 
 In order to get credit for doing the assignment, let's record our commands!
 
-Before you run *anything*, run `script log#` where # is a number. Start at 0,
-but keep incrementing it for every new time you run a new `script` session.
+Before you run *anything*, run `start-record`. You should now see `[rec]` at
+the start of every line, indicating everything is recorded!
+If you get command not found, run `vm-update` first.
 
-When you are done, run `exit` to save the log file.
-
+When you are done, run `exit`.
 
 #################################################################
 
@@ -31,8 +31,6 @@ with an actual value (called an argument). For example, to get started I
 might type:
 
     python generate_clues.py 1919
-
-The significance of this number in relation to UCLA is left as an exercise to the reader.
 
 This will create a subdirectory called `clues`. Be sure to keep this file
 (called the README) open in a separate viewer.
@@ -53,24 +51,25 @@ for most commands.
 #### `ls` ####
 
 The next command we need to learn is `ls` (list). Type `man ls` and read the
-description. Press `q` to exit. Then type `ls` and you should see something
+description before the list of options - you can ignore everything else for now.
+Press `q` to exit. Then type `ls` and you should see something
 like this:
 
     APPENDIX.md clues generate_clues.py LICENSE.md next_clue.py README.md
 
-Items which are blue are directories and everything else is a file. Any time
-you need to know which files and directories are available, type `ls`.
+Items which are blue are directories (aka folders!) and everything else is a file. Any time
+you need to know which files and directories are available, type `ls`!
 
 #### `cd` ####
 
 We need a couple more tools before we can start clue hunting. To change to
-another directory we use `cd` (change directory). You may notice that
-`man cd` doesn't work. Sometimes there is no manpage for a command. In that
-case google is your friend. Changing directories is pretty simple:
+another directory (or folder) we use `cd` (change directory). You may notice that
+`man cd` doesn't work. Sometimes, there is no manpage for a command. In that
+case google is your friend. Going into a directory (or folder) is pretty simple:
 
     cd clues
 
-This puts us in the clues directory. To go up a directory, we can do this:
+This puts us in the clues directory (folder). To exit a directory (folder), we can do this:
 
     cd ..
 
@@ -79,21 +78,18 @@ If you ever get lost, just do
     cd ~/linux-scavenger-hunt
 
 to return home. If you `cd` to the `clues` directory and do an `ls`, you
-will notice that there are a lot of clue directories. Most of them contain
-fake clues. Throughout our hunt we will be looking for real clues. Using
-`cd`, navigate to `clues/12345` and type `ls`. You should see a single
-file named `clue`.
+will notice that there are a lot of directories (folders), each numbered 00001-99999.
+Most of them contain fake clues. Throughout our hunt we will be looking for real clues. Using
+`cd`, navigate into the `clues` directory and then the `12345` directory, and type `ls` to list 
+the files in this directory. You should see a single file named `clue`.
 
 #### `cat` ####
 
-Finally we need to be able to look at our clues. First read the manpage for
-`cat`, then do:
+Finally we need to be able to look at our clues. We can do this by doing:
 
     cat clue
 
-This should list the clue in your terminal. From now on, everything we need
+This displays the conte of the file `clue` in your terminal. From now on, everything we need
 will be contained in these clue files. It's a good idea to keep track of
-all the clue folders (like `12345`) somewhere, such as on a piece of paper
-or in a digital note somewhere. You can also do
-things like copy all the clue files to your home folder, or cut and paste
-the clue text into another file.
+all the clue numbers (like `12345`) somewhere, such as on a piece of paper
+or in a digital note somewhere. Read this clue to continue!

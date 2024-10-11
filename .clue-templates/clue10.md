@@ -17,8 +17,7 @@ Another example:
     grep ^sand /usr/share/dict/words | wc -l
 
 will print the number of words that start with "sand". The carat `^` symbol
-is a regular expression that means "starts with". You can also use `$` for
-"ends with".
+is a regular expression that means "starts with".
 
 #### Sort ####
 
@@ -41,3 +40,6 @@ your hint. For example, if your command was `ls -la /usr/bin | sort -a -b -c`, y
 be
 
     python next_clue.py 11 "-a -b -c"
+
+Note: use the shorthand single-letter options! The longer ones work just as well, but our clue checking
+script doesn't recognize them.

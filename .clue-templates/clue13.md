@@ -1,7 +1,7 @@
 ### Clue 13: Success! ###
 
 Congratulations! You made it to the end!
-Make sure to save your work by running `exit`. You should see the `log#` file(s) - hold onto these files for now, and when we review git/GitHub, you will be able to push your files and submit.
+Make sure to save your work by running `exit`. Your linux 
 
 #### You Found All the Clues ####
 
