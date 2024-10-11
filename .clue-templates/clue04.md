@@ -10,7 +10,7 @@ Welcome! I hope you are viewing this file in `less`. As a reminder:
 
 We've been exploring the directories that already exist on the computer. But
 what if we want to make our own folders and files? The first thing we need to
-do is create a new directory. First go home: `cd ~/linux-scavenger-hunt`. Then do
+do is create a new directory. First go home by running just: `cd`. Then do
 
     mkdir saved-clues
 
@@ -23,16 +23,17 @@ locations, this next part should be easy.
 
 Let's copy all of the clues we've found so far to our saved-clues folder:
 
-    cp clues/12345/clue saved-clues/clue2
-    cp clues/[YOUR_CLUE_NUMBER]/clue saved-clues/clue3
+    cp linux-scavenger-hunt/clues/12345/clue saved-clues/clue2
+    cp linux-scavenger-hunt/clues/[YOUR_CLUE_NUMBER]/clue saved-clues/clue3
 
-This copies (`cp`) each clue to the new folder and gives them new names. If we
-had just done this
+This copies (`cp`) each clue to the new folder and gives them new names.
+We can also leave out the file name and do this:
 
-    cp clues/12345/clue saved-clues/
-    cp clues/[YOUR_CLUE_NUMBER]/clue saved-clues/
+    cp linux-scavenger-hunt/clues/12345/clue saved-clues/
+    cp linux-scavenger-hunt/clues/[YOUR_CLUE_NUMBER]/clue saved-clues/
 
-The second file would overwrite the first, because they have the same name.
+By ending in a `/`, this tells `cp` to keep the same file name. However, since they are
+both named `clue`, the second file would overwrite the first, which is not what we want. 
 
 #### Keep Your Options Open ####
 
@@ -40,7 +41,7 @@ Linux commands often have options that change how they behave. For instance,
 compare `ls -l` to ordinary `ls`. Here the `-l` is an option. You can group 
 options together like this
 
-    ls -lahS
+    ls -lah
     
 The best way to find out about options is the manpage or google.
 
@@ -52,7 +53,7 @@ Now let's say we don't like the folder name `saved-clues`. We can just move
     mv saved-clues [pick a new name]
 
 Now do an `ls` to see the results of the move. Be careful with `mv`: you can
-easily overwrite an existing folder. 
+easily overwrite an existing folder! Let's find a way to avoid that.
 
 #### Find Clue 5 ####
 
