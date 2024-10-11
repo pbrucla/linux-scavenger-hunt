@@ -17,14 +17,14 @@ locations, this next part should be easy.
 
 Let's copy all of the clues we've found so far to our saved-clues folder:
 
-    cp clues/{0}/clue saved-clues/clue2
-    cp clues/{1}/clue saved-clues/clue3
+    cp clues/12345/clue saved-clues/clue2
+    cp clues/[YOUR_CLUE_NUMBER]/clue saved-clues/clue3
 
 This copies (`cp`) each clue to the new folder and gives them new names. If we
 had just done this
 
-    cp clues/{0}/clue saved-clues/
-    cp clues/{1}/clue saved-clues/
+    cp clues/12345/clue saved-clues/
+    cp clues/[YOUR_CLUE_NUMBER]/clue saved-clues/
 
 The second file would overwrite the first, because they have the same name.
 
@@ -36,7 +36,7 @@ options together like this
 
     ls -lahS
     
-The best way to find out about options is the manpage.
+The best way to find out about options is the manpage or google.
 
 #### Moving On ####
 
@@ -52,3 +52,5 @@ easily overwrite an existing folder.
 
 Read the man page for `mv` and find an
 option to prevent overwriting. That option is your next hint.
+
+Note: use the shorthand version of the option - it should be a single letter.

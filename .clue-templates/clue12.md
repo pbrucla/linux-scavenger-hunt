@@ -3,6 +3,6 @@
 #### Finding the Final Clue ####
 
 Using everything you've learned so far, and the fact that the real clues are
-different from the fake clues, find the final clue using only linux commands!
+different from the fake clues (different file size!), find the final clue using only linux commands!
 
-Hint: try using the `find` command.
+Hint: try using the `find` or `grep` commands.

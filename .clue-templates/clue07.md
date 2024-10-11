@@ -12,8 +12,9 @@ command for that: `sudo`. It stands for "super-user do".
 #### Installing Software ####
 
 Sometimes you need a new program. To install software on some versions of Linux
-(Ubuntu and Debian), including the one we use for this class, you use the command `apt-get`. On other versions (Fedora, CentOS) you use the command `yum`. Let's install a text editing program
-called `vim`.
+(Ubuntu and Debian), including the one we use for this class, you use the command
+`apt-get`. On other versions (Fedora, CentOS) you use the command `yum`. Let's
+install a text editing program called `vim`.
 
     apt-get install vim
     
@@ -33,3 +34,6 @@ strange. For now, just type `:q!` to quit.
 #### Finding Clue 8 ####
 
 The hint is the name of the first folder in `/sys/kernel/debug`.
+
+Hint: you won't be able to use `cd` with `sudo`. Instead, use `ls`
+and specify the directory you would like to list the files inside of.

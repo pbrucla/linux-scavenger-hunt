@@ -18,7 +18,7 @@ To search for a specific word or phrase in the file, press `Ctrl + W`. A prompt 
 
 #### Saving and Exiting in Nano ####
 
-Once you’ve made your changes, you can save the file by pressing `Ctrl + O` (the letter "O" for "output"). Nano will then ask for confirmation of the filename. Simply press `Enter` to confirm. To exit nano, press `Ctrl + X`.
+Once you’ve made your changes, you can save and exit the file by pressing `Ctrl + X` (the letter "X" for "eXit"). Nano will ask if you want to save, so type `y` for "yes". Nano will then ask for confirmation of the filename - simply press `Enter` to confirm.
 
 #### Finding Clue 12 ####
 

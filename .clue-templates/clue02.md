@@ -32,19 +32,18 @@ explore the entire file system from here, using just `ls` and `cd`.
 
 To find the next clue, go to the `/usr` directory and count the number of
 subdirectories. This is a hint to your next clue location. Go to the
-`linux-scavenger-hunt` directory, and type
+`linux-scavenger-hunt` directory (remember, we can do
+`cd ~/linux-scavenger-hunt` if we get lost), and type
 
     python next_clue.py [next clue number] [hint]
 
-So, if there were 5 directories, we would type
+So, if there were 5 directories, since we looking for clue 3, we would type
 
     python next_clue.py 3 5
 
 since we want to find clue 3 and our hint is 5.
 The location of our next clue should be printed. If you get the hint wrong,
-an incorrect clue will be printed. This is an example of what is known as GIGO
-(garbage-in, garbage-out). Helpful tip: you can open more than one terminal
-window, or more than one tab in your current window with `CTRL-SHIFT-T`.
+an incorrect clue will be printed.
 
 #### `less` ####
 
