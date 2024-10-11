@@ -37,7 +37,10 @@ if __name__ == "__main__":
     import shutil
     try:
         print("Found existing scavenger hunt - updating clues...")
-        shutil.rmtree("clues")
+        try:
+            shutil.rmtree("clues")
+        except:
+            pass
         with open(".secret_number", "r") as f:
             secret_number = int(f.read())
 
@@ -53,11 +56,10 @@ if __name__ == "__main__":
     except FileNotFoundError:
         sys.exit("Unable to locate dictionary file. Please contact the instructors for support.")
 
-    # try:
-    #     os.stat("clues")
-    #     sys.exit("Clues folder already exists.")
-    # except FileNotFoundError:
-    #     os.mkdir("clues")
+    try:
+        os.stat("clues")
+    except FileNotFoundError:
+        os.mkdir("clues")
 
     clue_indexes = gen_clue_list(START_CLUE, LAST_CLUE, CLUE_SPACE, secret_number)
 
