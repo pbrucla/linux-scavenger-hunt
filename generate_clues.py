@@ -33,12 +33,10 @@ def gen_clue_list(first, last, space, secret):
 
 if __name__ == "__main__":
 
-    import os
-    import shutil
     try:
         print("Found existing scavenger hunt - updating clues...")
         try:
-            shutil.rmtree("clues")
+            rmtree("clues")
         except:
             pass
         with open(".secret_number", "r") as f:
@@ -73,6 +71,8 @@ if __name__ == "__main__":
 
     print("Hiding clues (this may take a couple minutes)...")
     for i in range(0, CLUE_SPACE):
+        if i % 5000 == 0:
+            print(f"{i // 1000}% done...")
         dir_name = "clues/" + "0" * (len(str(CLUE_SPACE)) - 1 - len(str(i))) + str(i)
         os.mkdir(dir_name)
         file_name = open(dir_name + "/clue", "w")
@@ -98,5 +98,4 @@ if __name__ == "__main__":
     with open(".secret_number", "w") as f:
         f.write(str(secret_number))
 
-    rmtree(".clue-templates")
     print("Done hiding clues.")
