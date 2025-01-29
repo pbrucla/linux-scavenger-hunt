@@ -12,6 +12,6 @@ ChatGPT things, view more man pages, and more!
 
 If you would like to tackle some Linux challenges unguided, check out
 OverTheWire Bandit at https://overthewire.org/wargames/bandit/. If you
-complete **at least 10 levels**, you will get one point per level completed
-extra credit. Record your actions with `script`, saved in log files named
-`bandit#`, and upload to assignment 2 the same way along with your `log#` files.
+complete **at least 5 levels**, you will get one point per level completed
+extra credit. Record your actions with `start-record` like before, type your solutions
+in a file called `bandit.txt`, and upload this along with your `recording` file.
