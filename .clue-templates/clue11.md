@@ -31,3 +31,5 @@ Navigate to where you want to add the phrase, type it in, save the file with `Ct
 Once you are done, simply run `next_clue.py` with the answer `done` like so:
 
     python next_clue.py 12 done
+
+Flag: cyber{3id9XxnMPs23SG5pik6dyWZeA4m0d3mr}

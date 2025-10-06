@@ -15,3 +15,5 @@ you just want one of those, you can use `-l`, `-w`, or `-c`.
 There is a file that acts as a dictionary for spell-checking: 
 `/usr/share/dict/words`. Your next clue is the number of words in the 
 dictionary.
+
+Flag: cyber{P6fGHIywefhBl1LaPL3chcy02k1cJJWX}

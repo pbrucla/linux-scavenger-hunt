@@ -50,3 +50,5 @@ an incorrect clue will be printed.
 
 Once we have the next clue's number, remember that we then need to go into the `clues` directory and then
 the directory with the number given to us. If your answer was correct, then you should see clue 3!
+
+Flag: cyber{UT9Iyd1Ph9PSd21qKWp8ozynuCGQRsi7}

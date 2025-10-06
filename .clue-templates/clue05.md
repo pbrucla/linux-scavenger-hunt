@@ -31,3 +31,5 @@ You can also use `echo` to display what are called environment variables.
 The `PATH` variable tells the computer where programs are. Each path that could 
 contain a program is separated by colons. Your hint for the next clue is the 
 LAST path listed in your `PATH` - for example, if you see `/usr/bin:/bin`, the last path is `/bin`
+
+Flag: cyber{w6Z8lm0jjxSYjl1hpC3wILjcLWDPTISO}

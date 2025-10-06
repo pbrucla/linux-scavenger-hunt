@@ -43,3 +43,5 @@ be
 
 Note: use the shorthand single-letter options! The longer ones work just as well, but our clue checking
 script doesn't recognize them.
+
+Flag: cyber{71HaKUbG94Ekyop1pldtN9KtIgmuo8ba}

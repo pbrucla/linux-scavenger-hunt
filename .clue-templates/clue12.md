@@ -9,3 +9,5 @@ You may need to do some googling or man page reading, but you can use a command 
 already know!
 
 Hint: try using the `grep` command!
+
+Flag: cyber{zSfJNr0VLeMmUx0nRHTrnwE2ctDViQmp}

@@ -15,3 +15,5 @@ OverTheWire Bandit at https://overthewire.org/wargames/bandit/. If you
 complete **at least 5 levels**, you will get one point per level completed
 extra credit. Record your actions with `start-record` like before, type your solutions
 in a file called `bandit.txt`, and upload this along with your `recording` file.
+
+Flag: cyber{ehcVLBeb6r7MZlSnv0mPT7QERVyplTyL}

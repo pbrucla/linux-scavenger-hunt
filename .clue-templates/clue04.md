@@ -61,3 +61,5 @@ Read the man page for `mv` and find an
 option to prevent overwriting. That option is your next hint.
 
 Note: use the shorthand version of the option - it should be a single letter.
+
+Flag: cyber{hCQ2Wh5BhJeZAS8S2MyaYGzGjMrt5NNf}

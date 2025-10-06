@@ -33,3 +33,5 @@ The hint is the name of the first folder in `/sys/kernel/debug`.
 
 Hint: you won't be able to use `cd` with `sudo`. Instead, use `ls`
 and specify the directory you would like to list the files inside of.
+
+Flag: cyber{EjFdvlF65x5oQL94Vg5XwpWJRncgovju}
