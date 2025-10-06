@@ -87,3 +87,5 @@ This displays the conte of the file `clue` in your terminal. From now on, everyt
 will be contained in these clue files. It's a good idea to keep track of
 all the clue numbers (like `12345`) somewhere, such as on a piece of paper
 or in a digital note somewhere. Read this clue to continue!
+
+Flag: cyber{XQOHtljvLyiRIbYhQPLLh1p9SRT5GTyM}. Submit this at https://platform.acmcyber.com to track your progress!
