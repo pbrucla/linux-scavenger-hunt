@@ -7,7 +7,10 @@ the clues and learn how to use basic Linux commands in the process.
 
 Go to https://shell.cloud.google.com, and then login with your UCLA (or any google) account.
 
-Once you have done that, copy-paste this command and hit enter: `git clone https://github.com/pbrucla/linux-scavenger-hunt/ && cd linux-scavenger-hunt`
+Once you have done that, copy-paste this command and hit enter:
+```
+git clone https://github.com/pbrucla/linux-scavenger-hunt/ && cd linux-scavenger-hunt
+```
 
 Then, choose a secret number with at least 4 digits. Don't forget it and
 don't choose the same one as anyone else! The secret number makes your clues
