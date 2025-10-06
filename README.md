@@ -3,22 +3,13 @@
 This is a scavenger hunt to learn Linux commands. Our goal is to find all
 the clues and learn how to use basic Linux commands in the process.
 
-############## IMPORTANT: RECORDING YOUR COMMANDS ##############
-
-
-In order to get credit for doing the assignment, let's record our commands!
-
-Before you run *anything*, run `start-record`. You should now see `[rec]` at
-the start of every line, indicating everything is recorded!
-If you get command not found, run `vm-update` first.
-
-When you are done, run `exit`.
-
-#################################################################
-
 ## Setup ##
 
-First, choose a secret number with at least 4 digits. Don't forget it and
+Go to https://shell.cloud.google.com, and then login with your UCLA (or any google) account.
+
+Once you have done that, copy-paste this command and hit enter: `git clone https://github.com/pbrucla/linux-scavenger-hunt/ && cd linux-scavenger-hunt`
+
+Then, choose a secret number with at least 4 digits. Don't forget it and
 don't choose the same one as anyone else! The secret number makes your clues
 unique, so other teams can't look over your shoulder.
 
