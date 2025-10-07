@@ -36,9 +36,9 @@ if __name__ == "__main__":
     # Install dependencies
     try:
         print("Installing dependencies (this may take a while)...")
-        import os
-        os.system("sudo apt install wamerican man-db", shell=True)
-        os.system("sudo unminimize", shell=True)
+        import subprocess
+        subprocess.run(["sudo", "apt", "install", "wamerican", "man-db"], check=True)
+        subprocess.run(["sudo", "unminimize"], check=True)
     except:
         pass
     print("Done!")
