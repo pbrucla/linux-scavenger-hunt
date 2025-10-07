@@ -85,15 +85,8 @@ if __name__ == "__main__":
             template_index = clue_indexes.index(i)
 
             if template_index < len(template_data):
-                if template_index == 2:
-                    # print template_index, clue_indexes[1]
-                    file_name.write(
-                        template_data[template_index].format(
-                            zero_pad(clue_indexes[1]), zero_pad(clue_indexes[0])
-                        )
-                    )
-                else:
-                    file_name.write(template_data[template_index])
+                # All templates are self-contained, no formatting needed
+                file_name.write(template_data[template_index])
             else:
                 file_name.write("Clue: \n")
 
