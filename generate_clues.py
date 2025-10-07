@@ -35,9 +35,11 @@ if __name__ == "__main__":
 
     # Install dependencies
     try:
-        print("Installing dependencies (this may take a while)...")
+        print("Installing dependencies (this may take a while)...\n\n")
+        import time
+        time.sleep(1)
         import subprocess
-        subprocess.run(["sudo", "apt", "install", "wamerican", "man-db"], check=True)
+        subprocess.run(["sudo", "apt", "install", "-y", "wamerican", "man-db"], check=True)
         subprocess.run(["sudo", "unminimize"], check=True)
     except:
         pass
