@@ -60,6 +60,8 @@ easily overwrite an existing folder! Let's find a way to avoid that.
 Read the man page for `mv` and find an
 option to prevent overwriting. That option is your next hint.
 
+Note: If you get an error when running `man`, search google for `man mv` instead.
+
 Note: use the shorthand version of the option - it should be a single letter.
 
 Flag: cyber{hCQ2Wh5BhJeZAS8S2MyaYGzGjMrt5NNf}
