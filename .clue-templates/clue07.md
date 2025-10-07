@@ -13,19 +13,16 @@ command for that: `sudo`. It stands for "super-user do".
 
 Sometimes you need a new program. To install software on some versions of Linux
 (Ubuntu and Debian), including the one we use for this class, you use the command
-`apt`. Let's install a rainbow text generating program called `lolcat`.
+`apt`. Let's install a rainbow text generating program called `cowsay`.
 
-    apt install lolcat
+    apt install cowsay
     
 You should get an error message asking if you are root. This means you don't
 have the ability to install software. Instead, try
 
-    sudo apt install lolcat
+    sudo apt install cowsay
     
-Now we have the ability to make rainbow text! Type `lolcat`, then start typing any text and
-hit enter, and voila! Rainbox text!
-
-To exit, hold the control key and then hit the `c` key.
+Now we have the ability to make rainbow text! Type `/usr/games/cowsay`, then start typing any text and then type control + d, and voila! A talking cow!
 
 #### Finding Clue 8 ####
 

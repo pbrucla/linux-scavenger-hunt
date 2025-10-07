@@ -40,7 +40,6 @@ if __name__ == "__main__":
         time.sleep(1)
         import subprocess
         subprocess.run(["sudo", "apt", "install", "-y", "wamerican", "man-db"], check=True)
-        subprocess.run(["sudo", "unminimize"], check=True)
     except:
         pass
     print("Done!")
