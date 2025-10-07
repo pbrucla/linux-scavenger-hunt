@@ -33,6 +33,16 @@ def gen_clue_list(first, last, space, secret):
 
 if __name__ == "__main__":
 
+    # Install dependencies
+    try:
+        print("Installing dependencies (this may take a while)...")
+        import os
+        os.system("sudo apt install wamerican man-db", shell=True)
+        os.system("sudo unminimize", shell=True)
+    except:
+        pass
+    print("Done!")
+
     try:
         print("Found existing scavenger hunt - updating clues...")
         try:

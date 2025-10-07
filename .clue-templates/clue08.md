@@ -16,4 +16,6 @@ There is a file that acts as a dictionary for spell-checking:
 `/usr/share/dict/words`. Your next clue is the number of words in the 
 dictionary.
 
+**NOTE: Run `sudo apt install wamerican` if this file is missing**
+
 Flag: cyber{P6fGHIywefhBl1LaPL3chcy02k1cJJWX}

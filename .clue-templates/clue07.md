@@ -29,7 +29,7 @@ To exit, hold the control key and then hit the `c` key.
 
 #### Finding Clue 8 ####
 
-The hint is the name of the first folder in `/sys/kernel/debug`.
+The hint is the name of the first folder in `/sys/kernel/reboot`.
 
 Hint: you won't be able to use `cd` with `sudo`. Instead, use `ls`
 and specify the directory you would like to list the files inside of.
